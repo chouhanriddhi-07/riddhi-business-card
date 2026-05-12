@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+}
+
+#root {
+  width: 550px;
+  height: 868px;
+  margin: 53px auto 0;
+  opacity: 1;
+  background: #23252C;
+}
+
+.app {
+  width: 317px;
+  height: 780px;
+  top: 44px;
+  left: 116px;
+  opacity: 1;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  position: relative;
+  background: #1A1B21;
+
+
+  .profile {
+    & .profile-picture {
+      width: 317px;
+    }
+
+    & .profile-name {
+      font-family: Inter;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 25px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    & div.buttons {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    & p {
+      margin-top: -10px;
+      font-family: Inter;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 12.8px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #F3BF99;
+    }
+  }
+
+  .about-me,
+  .interests {
+    padding: 0.5rem 1.5rem 0 1.5rem;
+
+    & span {
+      font-family: Inter;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0%;
+      color: #F5F5F5;
+    }
+
+    & p {
+      margin-top: 0;
+      font-family: Inter;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 10.24px;
+      line-height: 150%;
+      letter-spacing: 0%;
+      color: #DCDCDC;
+    }
+  }
+
+  .footer {
+    background: #161619;
+    width: 317px;
+    height: 80px;
+    top: 760px;
+    left: 116px;
+    opacity: 1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      width: 25px;
+      height: 25px;
+      top: 779px;
+      left: 238px;
+      opacity: 1;
+      margin-right: 10px;
+    }
+  }
+}
