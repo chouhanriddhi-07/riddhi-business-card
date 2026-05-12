@@ -11,8 +11,8 @@ A digital business card built with **React + Vite** as my first React project. I
 
 ## 📸 Preview
 
-> _Add a screenshot of your app here_
-> `![Business Card Preview](./preview.png)`
+<img width="745" height="1144" alt="Screenshot 2026-05-12 161757" src="https://github.com/user-attachments/assets/1f327233-9ab3-475e-b1a1-27418dc44dc6" />
+
 
 ---
 
