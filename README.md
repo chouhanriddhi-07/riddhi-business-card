@@ -6,7 +6,7 @@ A digital business card built with **React + Vite** as my first React project. I
 
 ## 🚀 Live Demo
 
-> _Coming soon
+[Riddhi's Business card](https://riddhi-business-card.vercel.app/)
 ---
 
 ## 📸 Preview
