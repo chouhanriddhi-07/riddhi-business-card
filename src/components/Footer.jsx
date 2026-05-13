@@ -1,8 +1,11 @@
+import facebookIcon from '../assets/facebook-icon.png';
+import instagramIcon from '../assets/instagram-icon.png'; 
+
 export default function Footer() {
   return (
     <div className="footer">
-      <img src="src/assets/facebook-icon.png" alt="Facebook Icon" />
-      <img src="src/assets/instagram-icon.png" alt="Instagram Icon" />
+      <img src={facebookIcon} alt="Facebook Icon" />
+      <img src={instagramIcon} alt="Instagram Icon" />
     </div>
   )
 }
